@@ -1,0 +1,202 @@
+
+@font-face {
+    font-family:prisicilla_2;
+    src: url(letra2.ttf);
+}
+#letra{
+    font-family: prisicilla_2;
+    font-size: 70px;
+}
+#btnEnviar{
+    align-self: center;
+}
+
+@media only screen and (min-width:300px) { 
+    body {
+    background:rgb(167, 212, 255) !important
+  } #card{
+    height: auto;
+    width: auto;
+  }
+  }
+  @media only screen and (min-width: 576px) { 
+    body {
+    background:rgb(167, 212, 255) !important
+  } #card{
+    height: auto;
+    width: auto;
+  }
+  }
+  @media only screen and (min-width: 768px) {
+     body {
+    background:rgb(167, 212, 255) !important
+    
+  } 
+  #conta{
+    height: 500px;
+    width: 900px;
+  }}
+  @media only screen and (min-width: 992px) { 
+    body {
+    background:rgb(167, 212, 255) !important
+  } #card{
+    height: auto;
+    width: auto;
+  }  }
+  
+  @media only screen and (min-width: 1200px) { 
+    body {
+    background:rgb(152, 255, 134) !important
+  }  
+  #card{
+    height: auto;
+    width: auto;
+  }
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+  }
+  
+  .text {
+    position: absolute;
+    width: 450px;
+    left: 20%;
+    margin-left: -225px;
+    height: 40px;
+    top: 50%;
+    margin-top: -20px;
+  }
+  
+  p {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+  }
+  
+  .word {
+    position: absolute;
+    width: 220px;
+    opacity: 0;
+  }
+  
+  .letter {
+    display: inline-block;
+    position: relative;
+    float: left;
+    transform: translateZ(25px);
+    transform-origin: 50% 50% 25px;
+  }
+  
+  .letter.out {
+    transform: rotateX(90deg);
+    transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  
+  .letter.behind {
+    transform: rotateX(-90deg);
+  }
+  
+  .letter.in {
+    transform: rotateX(0deg);
+    transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .wisteria {
+    color: #2c96ec;
+    left: -50%;
+  }
+  
+  .belize {
+    color: #2980b9;
+  }
+  
+  .pomegranate {
+    color: #ff2d96;
+    left: -50%;
+  }
+  
+  .green {
+    color: #fbef3d;
+  }
+  
+  .midnight {
+    color: #fb32bf;
+  }
+  
+  
+}
+
+/*----------------------*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.text {
+  position: absolute;
+  width: 450px;
+  left: 85%;
+  margin-left: -225px;
+  height: 40px;
+  top: 50%;
+  margin-top: -20px;
+}
+
+p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+.word {
+  position: absolute;
+  width: 220px;
+  opacity: 0;
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  float: left;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.wisteria {
+  color: #2885fd;
+}
+
+.belize {
+  color: #2980b9;
+}
+
+.pomegranate {
+  color: #ff2d96;
+}
+
+.green {
+  color: #16a085;
+}
+
+.midnight {
+  color: #2c3e50;
+}
+

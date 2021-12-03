@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="section container" id="conta">
+        <form class="col s12" id="datos">
+            <div class="row card panel" id="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img id="imagendentista" src="dentista4.jpg">
+                    
+                </div>
+                <div class="input-field col s12 ">
+                    <div class="text">
+                        <p></p>
+                        <p>
+                          <span class="word wisteria">Dentista.</span>
+                          <span class="word pomegranate ">Dentista.</span>
+                     
+                         
+                        </p>
+                      </div>
+
+
+                </div>
+                <div class="input-field col s6 ">
+                    <input type="text" name="" id="txtNombre" class="validate " required>
+                    <label for="txtNombre"><i class="material-icons perm_identity ">perm_identity</i>Nombre:</label>
+                </div>
+                <div class="input-field col s6 ">
+                    <input type="text" name="" id="txtApellidos" class="validate">
+                    <label for="txtApellidos"><i
+                            class="material-icons perm_identity">perm_identity</i>Apellidos:</label>
+                </div>
+                <div class="input-field col s6 ">
+                    <input type="text" id="txtTelefono" class="Telefono" required>
+                    <label for="txTelefono"><i class="material-icons phone">phone</i>Telefono:</label>
+                </div>
+                <div class="input-field col s6 ">
+                    <input type="email" name="" id="txtEmail" class="validate" required>
+                    <label for="txtEmail"><i class="material-icons email">email</i>Email:</label>
+                </div>
+                <div class="input-field col s6 ">
+                    <input type="text" name="" id="txtFecha" class="datepicker" required>
+                    <label for="txtFecha"><i class="material-icons date_range">date_range</i>Fecha:</label>
+                </div>
+                <div class="input-field col s6 ">
+                    <input type="text" name="" id="txtHora" class="timepicker" required>
+                    <label for="txtHora"><i class="material-icons access_time">access_time</i>Hora:</label>
+                </div>
+                <div class="input-field col s12 ">
+                    <input type="text" id="TxtDescripcion" class="autocomplete">
+                    <label for="TxtDescripcion"> <i class="material-icons ">textsms</i>Descripcion de cita:</label>
+                </div>
+                
+                <button id="btnEnviar" class="btn waves-effect  blue darken-1"><i
+                        class="material-icons right">send</i>Enviar</button>
+            </div>
+        </form>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
